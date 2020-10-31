@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8"/> 
+        <title>Cataleya</title> 
+        <link rel="stylesheet" href="main.css" />  
+    </head>
+
+    <body> 
+        <?php include('header-nav/header-nav.php');?> 
+        <?php include('navbar/navbar.php');?> 
+        <div class="content-80"> 
+            <div class="contend-inline-50"> <img src="assets/img/construction.png" alt="" width="20%"></div>
+            <div class="contend-inline-50"> <br><br><br><br><br><br><br><br> <h1>En construcción</h1> </div>
+        </div> 
+    </body> 
+    <?php include('footer/footer.php');?> 
+</html>

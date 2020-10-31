@@ -1,0 +1,70 @@
+.header-top {
+  position: fixed;
+  min-height: 100px;
+  width: 100%;
+  background: #fee9f0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+
+.header-top nav {
+  max-width: 800px;
+  margin: auto;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.header-top .logo-content {
+  position: absolute;
+  left: 10%;
+}
+
+.header-top i {
+  padding-right: 20px;
+}
+
+.header-top .search-content {
+  position: absolute;
+  right: 10%;
+}
+
+.header-top .search {
+  color: rgba(255, 74, 86, 1);
+  padding: 10px 15px;
+  border-radius: 30px;
+  letter-spacing: 0.01em;
+  font-size: 17px;
+  border: 1px solid rosybrown;
+}
+
+.header-top .search:focus {
+  outline: none;
+  border-radius: 30px;
+  border: 1px solid rgba(255, 74, 86, 1);
+}
+
+.header-top nav a {
+  flex-grow: 1;
+  text-align: center;
+  padding: 1em;
+  position: relative;
+}
+
+.header-top nav a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  transform: scaleX(0);
+  background: #333;
+  transition: 0.7s transform cubic-bezier(0.06, 0.9, 0.28, 1);
+}
+
+.header-top nav a:hover::after {
+  transform: scaleX(1);
+}

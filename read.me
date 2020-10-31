@@ -1,0 +1,31 @@
+Color base: #FEE9F0
+
+
+Para ver correctamente esta pagina en local se necesita tener instalado Xampp
+
+-   Editar con un bloc de notas en administrador el archivo C:\Windows\System32\drivers\etc\hosts y agregar estas lineas:
+
+    127.0.0.5	cataleya.com
+
+    Si no funciona ese puerto, probar con el siguiente 127.0.0.6
+
+-   Editar con un bloc de notas en administrador el archivo C:\xampp\apache\conf\extra y agregar estas lineas:
+
+    <VirtualHost 127.0.0.5:80>
+        ServerName cataleya.com
+        ServerAdmin webmaster@cataleya.com
+        DocumentRoot "D:\*carpeta contenedora*\cataleya\frontend"
+        DirectoryIndex index.php
+        <Directory "D:\*carpeta contenedora*\cataleya\frontend">
+            Options Indexes FollowSymLinks MultiViews
+            AllowOverride all
+            Require all granted
+            Order Allow,Deny
+            Allow from All
+        </Directory>
+    </VirtualHost> 
+
+
+Guardar estos archivos y reiniciar el apache y Mysql en el Xampp
+
+Abrir en el navegador cataleya.com

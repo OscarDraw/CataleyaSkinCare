@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Square721;
+  src: url(assets/fonts/Square721\ Cn\ BT\ Roman.ttf);
+}
+
+body {
+  font-family: Square721;
+  font-size: 1.4em;
+}
+
+.content-80 {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  margin-bottom: 50px;
+  white-space: nowrap;
+}
+
+.header-nav {
+  padding-top: 120px;
+}
+
+.contend-inline-50 {
+  display: inline-block;
+  width: 50%;
+  height: auto;
+  white-space: normal;
+}
+
+.contend-inline-50 img {
+  width: 80%;
+  margin: auto;
+}
+.contend-inline-50 p {
+  vertical-align: top;
+  width: 80%;
+  margin: auto;
+  text-align: justify;
+}

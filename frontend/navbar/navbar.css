@@ -1,0 +1,43 @@
+.header-nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-nav {
+  background: white;
+  margin-bottom: 10px;
+}
+
+.header-nav nav {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-nav .logo-content {
+  text-align: center;
+}
+
+.header-nav nav a {
+  flex-grow: 1;
+  text-align: center;
+  padding: 1em;
+  position: relative;
+}
+
+.header-nav nav a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  transform: scaleX(0);
+  background: #333;
+  transition: 0.7s transform cubic-bezier(0.06, 0.9, 0.28, 1);
+}
+
+.header-nav nav a:hover::after {
+  transform: scaleX(1);
+}

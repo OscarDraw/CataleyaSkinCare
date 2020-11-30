@@ -1,0 +1,14 @@
+.cart_section {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.total_cart {
+  text-align: center;
+  font-size: 30px;
+  border-radius: 20px;
+}
+#number_id {
+  width: 50%;
+  display: inline-block;
+}

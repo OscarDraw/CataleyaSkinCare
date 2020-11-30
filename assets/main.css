@@ -5,23 +5,20 @@
 
 @font-face {
   font-family: Square721;
-  src: url(assets/fonts/Square721\ Cn\ BT\ Roman.ttf);
+  src: url("fonts/Square721\ Cn\ BT\ Roman.ttf");
 }
 
 body {
   font-family: Square721;
   font-size: 1.4em;
 }
-
 .content-80 {
   width: 80%;
   margin: auto;
   display: flex;
   overflow: hidden;
   margin-bottom: 50px;
-  white-space: nowrap;
 }
-
 .header-nav {
   padding-top: 120px;
 }
@@ -32,8 +29,19 @@ body {
   height: auto;
   white-space: normal;
 }
+.contend-inline-40 {
+  display: inline-block;
+  width: 40%;
+  height: auto;
+}
+.contend-inline-60 {
+  display: inline-block;
+  width: 60%;
+  overflow: visible;
+  height: auto;
+}
 
-.contend-inline-50 img {
+.contend-inline-50 .img_aboutus {
   width: 80%;
   margin: auto;
 }

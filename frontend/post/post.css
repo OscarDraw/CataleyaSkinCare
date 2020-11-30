@@ -1,0 +1,19 @@
+.post_image {
+  width: 60% !important;
+  height: auto;
+  display: block;
+}
+.date-label {
+  color: rgb(211, 89, 89);
+}
+.post-content {
+  text-align: justify;
+}
+.post_blog {
+  -webkit-box-shadow: 0px 0px 10px -4px rgba(66, 66, 66, 0.75);
+  -moz-box-shadow: 0px 0px 10px -4px rgba(66, 66, 66, 0.75);
+  box-shadow: 0px 0px 10px -4px rgba(66, 66, 66, 0.75);
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 20px;
+}

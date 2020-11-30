@@ -1,0 +1,9 @@
+.blog_tittle h1 {
+  text-align: center;
+  color: #ac2552;
+  font-size: 50px;
+}
+.blog_section {
+  width: 80%;
+  margin: auto;
+}

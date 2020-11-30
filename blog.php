@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <link rel="icon" type="image/png" href="assets\img\favicon.ico" sizes="64x64">
     <title>Cataleya</title>
     <link rel="stylesheet" href="assets/main.css" />
     <link rel="stylesheet" href="frontend/views_css/blog.css" />

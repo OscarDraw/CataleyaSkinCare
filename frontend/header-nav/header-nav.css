@@ -24,6 +24,7 @@
 
 .header-top i {
   padding-right: 20px;
+  color: rgb(119, 34, 34);
 }
 
 .header-top .search-content {
@@ -51,6 +52,7 @@
   text-align: center;
   padding: 1em;
   position: relative;
+  color: rgb(119, 34, 34);
 }
 
 .header-top nav a::after {
@@ -67,4 +69,8 @@
 
 .header-top nav a:hover::after {
   transform: scaleX(1);
+}
+
+.userEspace a {
+  color: rgb(119, 34, 34) !important;
 }

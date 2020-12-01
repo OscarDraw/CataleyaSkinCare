@@ -134,7 +134,16 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `product_name`, `product_price`, `product_discount`, `product_info`, `product_stock`, `product_category`, `product_brand`, `product_status`, `product_image`) VALUES
-(1, 'Jabón de romero', 20000, 50, 'Nuestro jabón de Romero en su nueva edición.\r\nHecho a base de Romero vitamina E,árbol de té.\r\nNuestro jabón es ideal para pieles grasas elimina y controla el exceso de grasa en tu rostro.', 20, 1, 1, 1, 'assets\\img\\products\\jabon-romero.jpg');
+(1, 'Jabón de romero', 20000, 50, 'Nuestro jabón de Romero en su nueva edición.\r\nHecho a base de Romero vitamina E,árbol de té.\r\nNuestro jabón es ideal para pieles grasas elimina y controla el exceso de grasa en tu rostro.', 20, 1, 1, 1, 'assets\\img\\products\\jabon-romero.jpg'),
+(2, 'Aceite de Argán', 28900, 20, 'Aceite de Argán', 30, 1, 1, 1, 'assets\\img\\products\\2.jpg'),
+(3, 'Arcilla Mineral', 50000, 10, 'Arcilla Mineral', 12, 1, 1, 1, 'assets\\img\\products\\3.jpg'),
+(4, 'Kit piel perfecta', 89500, 30, 'Tu piel y tú merecen lo mejor\r\n\r\n', 15, 1, 1, 1, 'assets\\img\\products\\1.jpg'),
+(5, 'Kit Olor de Rosas', 80000, 30, 'Huele a belleza', 47, 1, 1, 1, 'assets\\img\\products\\4.jpg'),
+(6, 'Crema Piel Perfecta', 39900, 35, 'Crema Piel Perfecta', 10, 1, 1, 1, 'assets\\img\\products\\6.jpg'),
+(7, 'Jabon de Coco', 18920, 20, 'Jabon de Coco', 28, 1, 1, 1, 'assets\\img\\products\\8.jpg'),
+(8, 'Spray Maravillas', 38900, 30, 'Spray Maravillas', 24, 1, 1, 1, 'assets\\img\\products\\9.jpg'),
+(9, 'Jabon de Otoño', 47500, 10, 'Jabon de Otoño', 1, 1, 1, 1, 'assets\\img\\products\\10.jpg');
+
 
 -- --------------------------------------------------------
 

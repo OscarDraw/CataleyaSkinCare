@@ -6,7 +6,7 @@
     <title>Cataleya</title>
     <link rel="icon" type="image/png" href="assets\img\favicon.ico" sizes="64x64">
     <link rel="stylesheet" href="assets/main.css" />
-    <link rel="stylesheet" href="frontend/views_css/shop.css" />
+    <link rel="stylesheet" href="frontend\views_css\shop.css" />
 </head>
 
 <body>
@@ -17,7 +17,7 @@
     <?php include(_frontend_path . 'navbar/navbar.php'); ?>
     <div class="shop_section ">
         <div class="shop_tittle">
-            <h1>TIENDA <small style="color:Red;font-size:15px !important; "> Descuentos ya aplicados </small></h1>
+            <h1>TIENDA</h1>
         </div>
 
         <div class="container-fluid content_pages">
@@ -34,6 +34,8 @@
                 ?>
 
             </div>
+        </div>
+        <div class="category_banner">
         </div>
     </div>
 

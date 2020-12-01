@@ -15,9 +15,8 @@
         <div class="price_cart">
             <?php
             if ($item['product_discount'] > 0) $discount = $item['product_price'] * ($item['product_discount'] / 100);
-            $total += ($item['product_price'] - $discount);
             ?>
-            <h5><?php echo '$ ' . number_format($total, 2, ',', '.') ?></h5>
+            <h5><?php echo '$ ' . number_format($item['product_price'] - $discount, 2, ',', '.') ?></h5>
         </div>
         <div class="actions_cart">
             <input type="number" class="form-control" name="number_id" id="number_id" class="number_items" value="0">
@@ -38,26 +37,28 @@
         $precio = $item['product_price'] - $descuento;
     }
     ?>
-    <div class="product_content_desktop col-md-4 col-sm-4 col-xs-6 ">
-        <span class="aviso_agotado"><?php echo $avisoAgotado ?></span>
-        <div class="<?php echo $agotado; ?>">
-            <?php if (isset($descuento)) {
-            ?>
-                <span class="discount_items" title="Descuento aplicado">- <?php echo $item['product_discount'] . "%" ?></span>
-            <?php
-            } ?>
-            <span class="plus_items" title="Agregar al carrito"><i class="fas fa-plus"></i></span>
-            <div class="price"><?php echo '$ ' . number_format($precio, 2, ',', '.')   ?></div>
-            <div class="images">
-                <a href="/404.php" title="test">
-                    <div class="product">
-                        <img src="<?php echo $item['product_image'] ?>" alt="test" />
-                    </div>
-                </a>
-            </div>
-            <div class="information">
-                <h5><?php echo $item['product_name']  ?></h5>
-                <a href="/404.php"><?php echo $item['brand_name']  ?></a>
+    <div class="product_content_desktop col-md-4 col-sm-4 col-xs-6">
+        <div class=" col-md-12 col-sm-12 col-xs-12">
+            <span class="aviso_agotado"><?php echo $avisoAgotado ?></span>
+            <div class="<?php echo $agotado; ?>">
+                <?php if (isset($descuento)) {
+                ?>
+                    <span class="discount_items" title="Descuento aplicado">- <?php echo $item['product_discount'] . "%" ?></span>
+                <?php
+                } ?>
+                <span class="plus_items" title="Agregar al carrito"><i class="fas fa-plus"></i></span>
+                <div class="price"><?php echo '$ ' . number_format($precio, 2, ',', '.')   ?></div>
+                <div class="images">
+                    <a href="/404.php" title="test">
+                        <div class="product">
+                            <img src="<?php echo $item['product_image'] ?>" alt="test" />
+                        </div>
+                    </a>
+                </div>
+                <div class="information">
+                    <h5><?php echo $item['product_name']  ?></h5>
+                    <a href="/404.php"><?php echo $item['brand_name']  ?></a>
+                </div>
             </div>
         </div>
     </div>

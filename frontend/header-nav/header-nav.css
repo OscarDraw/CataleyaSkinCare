@@ -3,11 +3,11 @@
   min-height: 100px;
   width: 100%;
   background: #fee9f0;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(85, 84, 84, 0.1);
   margin-bottom: 50px;
   display: flex;
   align-items: center;
-  z-index: 100;
+  z-index: 1000000;
 }
 
 .header-top nav {

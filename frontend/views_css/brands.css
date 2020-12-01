@@ -1,0 +1,34 @@
+@font-face {
+  font-family: Square721;
+  src: url("fonts/Square721\ Cn\ BT\ Roman.ttf");
+}
+
+.brands .content {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.brands .content img {
+  max-width: 90vw;
+}
+
+.brands .products img {
+  max-width: 45vw;
+}
+
+.brands .content_products {
+  margin-top: 8vw;
+}
+
+.brands .content_products h2 {
+  text-align: center;
+  font-size: 25px;
+  color: #ac2552;
+  font-family: Square721;
+}
+
+.brands .content_products h3 {
+  text-align: center;
+  font-size: 20px;
+  color: #c56686;
+  font-family: Square721;
+}

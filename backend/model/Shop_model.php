@@ -34,6 +34,10 @@ class Shop_model
         }
         return $information;
     }
+    public function cleanConnect()
+    {
+        $this->conexion->close();
+    }
     public function addToCart()
     {
         $information = array();

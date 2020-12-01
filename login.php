@@ -15,16 +15,16 @@
     <?php include(_frontend_path . 'header-nav/header-nav.php'); ?>
     <?php include(_frontend_path . 'navbar/navbar.php'); ?>
     <div class="login-form">
-        <form action="/examples/actions/confirmation.php" method="post">
+        <form action="backend\sesion.php" method="post">
             <h2 class="text-center">Iniciar sesión</h2>
             <div class="form-group">
-                <input type="text" class="form-control" placeholder="Usuario" required="required">
+                <input type="text" class="form-control" name="user" placeholder="Usuario" required="required">
             </div>
             <div class="form-group">
-                <input type="password" class="form-control" placeholder="Contraseña" required="required">
+                <input type="password" class="form-control" name="password" placeholder="Contraseña" required="required">
             </div>
             <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                <button type="submit" name="submit" class="btn btn-primary btn-block">Enviar</button>
             </div>
         </form>
         <p class="text-center"><a href="#">Crear cuenta</a></p>

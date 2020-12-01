@@ -10,6 +10,10 @@ class Cart_model
         $this->conexion->set_charset("utf8");
     }
 
+    public function cleanConnect()
+    {
+        $this->conexion->close();
+    }
     public function get_products_information()
     {
         $information = array();

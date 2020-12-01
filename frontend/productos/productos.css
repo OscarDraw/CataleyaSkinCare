@@ -1,7 +1,4 @@
 .product_cart {
-  -webkit-box-shadow: 0px 0px 10px -4px rgba(66, 66, 66, 0.75);
-  -moz-box-shadow: 0px 0px 10px -4px rgba(66, 66, 66, 0.75);
-  box-shadow: 0px 0px 10px -4px rgba(66, 66, 66, 0.75);
 }
 .product_cart img {
   width: 100% !important;
@@ -69,7 +66,7 @@
   width: 20px;
   border-radius: 100%;
   padding: 20px;
-  z-index: 100000;
+  z-index: 100;
   background: #e62f2f;
   border-radius: 5px;
   -webkit-border-radius: 5px;

@@ -28,16 +28,18 @@
                     $products = $db->get_products_information();
 
                     $is_inCart = 1;
-                    $total = 0;
                     $discount = 0;
+                    $totalproductos = 0;
                     foreach ($products as $item) {
                         include(_frontend_path . 'productos/productos.php');
 
-                        if ($item['product_discount'] > 0) $discount = $item['product_price'] * ($item['product_discount'] / 100);
-                        $total += ($item['product_price'] - $discount);
+                        if ($item['product_discount'] > 0) {
+                            $discount = $item['product_price'] * ($item['product_discount'] / 100);
+                        }
+                        $totalproductos += (($item['product_price'] - $discount));
                     }
                     ?>
-                    <div class="total_cart"><?php echo '$ ' . number_format($total, 2, ',', '.') ?></div>
+                    <div class="total_cart"><?php echo '$ ' . number_format($totalproductos, 2, ',', '.') ?></div>
                 </div>
             </div>
         </div>

@@ -9,7 +9,7 @@
         <a href="aboutus.php">NOSOTROS</a>
         <a href="shop.php">TIENDA</a>
         <a href="blog.php">BLOG</a>
-        <a href="404.php">MARCAS</a>
-        <a href="404.php">TESTIMONIOS</a>
+        <a href="brands.php">MARCAS</a>
+        <!--  <a href="404.php">TESTIMONIOS</a> -->
     </nav>
 </div>

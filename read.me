@@ -3,13 +3,13 @@ Color base: #FEE9F0
 
 Para ver correctamente esta pagina en local se necesita tener instalado Xampp
 
--   Editar con un bloc de notas en administrador el archivo C:\Windows\System32\drivers\etc\hosts y agregar estas lineas:
+-   Editar con un bloc de notas en administrador el archivo C:\Windows\System32\drivers\etc\  y en el archivo "host" y agregar estas lineas:
 
     127.0.0.5	cataleya.com
 
     Si no funciona ese puerto, probar con el siguiente 127.0.0.6
 
--   Editar con un bloc de notas en administrador el archivo C:\xampp\apache\conf\extra y agregar estas lineas:
+-   Editar con un bloc de notas en administrador el archivo C:\xampp\apache\conf\extra\ y el el archivo "httpd-vhosts.conf" agregar estas lineas:
 
     <VirtualHost 127.0.0.5:80>
         ServerName cataleya.com
